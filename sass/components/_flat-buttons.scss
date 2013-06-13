@@ -1,0 +1,37 @@
+.flat-btn {
+  width:100%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 800;
+  color: #FFF;
+  border: none;
+ }
+
+.flat-btn-action {
+  background-color: $flat-btn-action-bg-color;
+}
+
+.flat-btn-action {
+  background-color: $flat-btn-action-bg-color;
+  &:hover, &:active {
+    background-color: darken($flat-btn-action-bg-color, 5%);
+    color: #FFF;
+  }
+}
+
+.flat-btn-success {
+  background-color: $flat-btn-success-bg-color;
+  &:hover, &:active {
+    background-color: darken($flat-btn-success-bg-color, 5%);
+    color: #FFF;
+  }
+}
+
+.flat-btn-secondary {
+  background-color: $flat-btn-secondary-bg-color;
+  &:hover, &:active {
+    background-color: darken($flat-btn-secondary-bg-color, 5%);
+    color: #FFF;
+  }
+}

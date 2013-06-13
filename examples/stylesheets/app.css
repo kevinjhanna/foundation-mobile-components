@@ -6718,3 +6718,49 @@ ul.main-nav-options li a {
 ul.main-nav-options li a:hover {
   background-color: #f2f2f2;
 }
+
+/* line 1, ../../sass/components/_flat-buttons.scss */
+.flat-btn {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 800;
+  color: #FFF;
+  border: none;
+}
+
+/* line 11, ../../sass/components/_flat-buttons.scss */
+.flat-btn-action {
+  background-color: #f73600;
+}
+
+/* line 15, ../../sass/components/_flat-buttons.scss */
+.flat-btn-action {
+  background-color: #f73600;
+}
+/* line 17, ../../sass/components/_flat-buttons.scss */
+.flat-btn-action:hover, .flat-btn-action:active {
+  background-color: #de3000;
+  color: #FFF;
+}
+
+/* line 23, ../../sass/components/_flat-buttons.scss */
+.flat-btn-success {
+  background-color: #a6a547;
+}
+/* line 25, ../../sass/components/_flat-buttons.scss */
+.flat-btn-success:hover, .flat-btn-success:active {
+  background-color: #94933f;
+  color: #FFF;
+}
+
+/* line 31, ../../sass/components/_flat-buttons.scss */
+.flat-btn-secondary {
+  background-color: #1f273e;
+}
+/* line 33, ../../sass/components/_flat-buttons.scss */
+.flat-btn-secondary:hover, .flat-btn-secondary:active {
+  background-color: #161c2d;
+  color: #FFF;
+}
